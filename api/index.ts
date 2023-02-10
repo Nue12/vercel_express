@@ -20,7 +20,7 @@ const html = `
 </html>
 `;
 
-app.get("/apiS", (req: Request, res: Response) => {
+app.get("/api", (req: Request, res: Response) => {
   res.send(html);
 });
 

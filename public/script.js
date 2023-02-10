@@ -5,7 +5,7 @@ const fetchData = async () => {
     const data = await response.json();
     console.log(data);
   } else {
-    window.location.href = "/apiS";
+    window.location.href = "/api";
   }
 };
 
